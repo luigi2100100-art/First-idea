@@ -360,7 +360,7 @@ if extracted_text.strip():
                     mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
                 )
         else:
-            st.warning("⚠️ Please run a compliance audit in **Tab 3** first before exporting deliverables.")
+            st.warning("⚠️ Please run a compliance audit in the **Tab 3** first before exporting deliverables.")
                         
 else:
     if input_method == "📋 Paste Marketing Copy Directly":
